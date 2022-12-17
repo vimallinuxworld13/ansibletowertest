@@ -1,1 +1,4 @@
-- command: date
+- hosts: all
+  tasks:
+  - debug:
+      msg: "LW"
